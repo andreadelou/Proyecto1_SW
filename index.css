@@ -5,9 +5,11 @@
   
   body {
     margin: 0;
+    background-color: rgb(57, 57, 57);
   }
   
   .video-section {
+    background-color: rgb(57, 57, 57);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 3rem 1rem;
@@ -21,6 +23,7 @@
   }
   
   .video-container {
+      
     display: flex;
     flex-direction: column;
   }
@@ -74,7 +77,7 @@
     font-weight: bold;
     margin-bottom: .5rem;
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   .video-channel-name {
@@ -84,12 +87,12 @@
   }
   
   .video-channel-name:hover {
-    color: #111;
+    color: rgb(0, 0, 0);
   }
   
   .video-channel-name,
   .video-metadata {
-    color: #555;
+    color: white;
   }
   
   .video-section-title {
@@ -106,7 +109,7 @@
     background: none;
     padding: 0;
     font-size: 2rem;
-    color: #555;
+    color: rgb(255, 255, 255);
     cursor: pointer;
   }
   
